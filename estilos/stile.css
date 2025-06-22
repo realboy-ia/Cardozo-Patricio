@@ -46,7 +46,7 @@
 }
 
 p{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     text-shadow: 1px 1px 1px black;
     text-align: left;
@@ -100,7 +100,7 @@ header{
     margin-top: 130px !important;
 }
 
-.Prisoner{
+.Prisoner {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -114,28 +114,21 @@ header{
 }
 
 a{
-    color: rgb(243, 28, 71);
+    color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px black;
     font-size: 15px;
     text-align: center;
     margin: 10px 20px 30px 10px 7px;
     padding: 5px 10px;
-    border: 10px rgb(0, 0, 0);
     border-radius: 10px;
-    background-color: rgb(0, 0, 0);
     text-decoration: none;
     
 }
 
-a:active{
-    background-color: rgb(255, 255, 255);
-    color: black;
-    text-shadow: deepskyblue;
-    border-color: black;
-}
-
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline rgb(0, 0, 0);
+    color:rgb(243, 28, 71);
+    text-shadow: rgb(255, 255, 255); 
 }
 
 .card {
